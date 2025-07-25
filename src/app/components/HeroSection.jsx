@@ -4,7 +4,7 @@ import { LuHeartHandshake } from "react-icons/lu";
 export default function HeroSection() {
 
     return (
-        <div className="flex items-center justify-center  px-4 h-screen mt-80 p-80   bg-red-50  ">
+        <div className="flex items-center justify-center  px-4 h-screen    bg-red-50  ">
             <div className="flex flex-col gap-6   items-center">
                 <h1 className=" font-bold text-5xl ">Conectando Vidas,  <span className="text-red-500 ">Salvando Histórias</span></h1>
                 <p className="text-center font-light">A plataforma que conecta doadores de sangue com hemocentros de forma inteligente, <br /> facilitando doações e salvando vidas através da tecnologia.</p>
