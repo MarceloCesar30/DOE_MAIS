@@ -22,7 +22,7 @@ const inter = Inter({
 
 const poppins = Poppins({
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
+  weight: ['100', '200', '400', '500', '600', '700'],
   display: 'swap',
 });
 
