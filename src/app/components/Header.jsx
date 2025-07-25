@@ -1,29 +1,35 @@
-import Link from 'next/link';
-import { FaHeartbeat } from "react-icons/fa";
-
+import { FaRegHeart } from "react-icons/fa";
+import Link from "next/link";
 export default function Header() {
   return (
-    <header className="flex justify-between items-center py-4 px-8 bg-white border-b border-gray-200">
-
-      <Link href="/" className="flex items-center gap-2">
-        <FaHeartbeat className="text-2xl text-[#FF4D4D]" />
-        <span className="text-2xl font-bold text-slate-800">DOE+</span>
-      </Link>
-
+    <header className="flex justify-around items-center py-4 px-8 bg-white border-b border-gray-200">
+      <div className="inline-flex items-center gap-2">
+        <FaRegHeart className="text-red-500 text-2xl" />
+        <h1 className="text-2xl font-bold text-slate-800">DOE+</h1>
+      </div>
       <nav>
         <ul className="flex items-center gap-8">
           <li>
-            <Link href="/para-doadores" className="text-gray-600 hover:text-black transition-colors">
+            <Link
+              href="/para-doadores"
+              className="text-gray-600 hover:text-black transition-colors"
+            >
               Para Doadores
             </Link>
           </li>
           <li>
-            <Link href="/para-hemocentros" className="text-gray-600 hover:text-black transition-colors">
+            <Link
+              href="/para-hemocentros"
+              className="text-gray-600 hover:text-black transition-colors"
+            >
               Para Hemocentros
             </Link>
           </li>
           <li>
-            <Link href="/unidades" className="text-gray-600 hover:text-black transition-colors">
+            <Link
+              href="/unidades"
+              className="text-gray-600 hover:text-black transition-colors"
+            >
               Unidades
             </Link>
           </li>
@@ -42,7 +48,6 @@ export default function Header() {
           </button>
         </Link>
       </div>
-      
     </header>
   );
 }
