@@ -1,0 +1,81 @@
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logoIcon {
+  color: #ff4d4d;
+  margin-right: 0.5rem;
+}
+
+.logoText {
+  color: #333;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+}
+
+
+.navigation a {
+  text-decoration: none;
+  color: #555;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navigation a:hover {
+  color: #000;
+}
+
+.actionButtons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btnPrimary {
+  background-color: #0d1b2a;
+  color: white;
+}
+
+.btnPrimary:hover {
+  background-color: #1b263b;
+}
+
+.btnSecondary {
+  background-color: white;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.btnSecondary:hover {
+  background-color: #f8f8f8;
+}
