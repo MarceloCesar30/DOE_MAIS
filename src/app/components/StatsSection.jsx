@@ -6,7 +6,8 @@ import { PiMedalLight } from "react-icons/pi";
 export default function StatsSection() {
     return (
         <div className="bg-white py-16">
-            <div className="flex items-center   justify-evenly gap-10">
+
+            <div className="flex items-center justify-around gap-10">
                 {/* Card 1 */}
                 <div className="flex flex-col items-center text-center gap-2">
                     <div className="bg-red-300/40 p-4 rounded-full flex items-center justify-center">
@@ -51,4 +52,5 @@ export default function StatsSection() {
             </div>
         </div>
     );
+
 }
