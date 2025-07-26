@@ -16,8 +16,6 @@ export default function HeroSection() {
                         <button className="bg-[#ffff]  rounded  inline-flex items-center gap-2 text-black shadow-md  h-11 px-8 text-sm  hover:bg-gray-100 hover:cursor-pointer"> <BsPeople />Sou Hemocentro</button>
                     </div>
                 </div>
-
-
             </div>
         </div>
     )
