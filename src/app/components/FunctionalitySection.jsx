@@ -39,7 +39,7 @@ const features = [
 
 export default function FeaturesSection() {
   return (
-    <section className=" bg-red-50 py-16 sm:py-24">
+    <section className=" bg-whiite py-16 ">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Bloco de Título e Descrição */}
         <div className="mx-auto max-w-3xl text-center">

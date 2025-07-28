@@ -1,6 +1,6 @@
 export default function ResponsibilitySection() {
     return (
-        <section className="bg-white py-20  px-20">
+        <div className="bg-red-50 py-20  px-20">
             <div className="  text-center">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">
                     Compromissos da DOE+
@@ -12,7 +12,7 @@ export default function ResponsibilitySection() {
                 </p>
 
                 <div className="grid  grid-cols-2 gap-10 text-left">
-                    <div className="bg-red-50 p-6 rounded-xl shadow-md">
+                    <div className="bg-white p-6 rounded-xl shadow-md">
                         <h3 className="font-semibold text-xl text-red-600 mb-2">
                             Plataforma Acessível
                         </h3>
@@ -20,7 +20,7 @@ export default function ResponsibilitySection() {
                             Fornecemos acesso à nossa plataforma digital com funcionalidades gamificadas para empresas e colaboradores.
                         </p>
                     </div>
-                    <div className="bg-red-50 p-6 rounded-xl shadow-md">
+                    <div className="bg-white p-6 rounded-xl shadow-md">
                         <h3 className="font-semibold text-xl text-red-600 mb-2">
                             Segurança de Dados
                         </h3>
@@ -28,7 +28,7 @@ export default function ResponsibilitySection() {
                             Garantimos a proteção e a privacidade dos dados dos usuários conforme a LGPD.
                         </p>
                     </div>
-                    <div className="bg-red-50 p-6 rounded-xl shadow-md">
+                    <div className="bg-white p-6 rounded-xl shadow-md">
                         <h3 className="font-semibold text-xl text-red-600 mb-2">
                             Reconhecimento Social
                         </h3>
@@ -36,7 +36,7 @@ export default function ResponsibilitySection() {
                             Emitimos certificados e selos de reconhecimento com base na participação nas campanhas de doação.
                         </p>
                     </div>
-                    <div className="bg-red-50 p-6 rounded-xl shadow-md">
+                    <div className="bg-white p-6 rounded-xl shadow-md">
                         <h3 className="font-semibold text-xl text-red-600 mb-2">
                             Suporte e Relatórios
                         </h3>
@@ -46,6 +46,6 @@ export default function ResponsibilitySection() {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     );
 }
