@@ -4,14 +4,16 @@ import HeroSection from "./components/HeroSection.jsx";
 import StatsSection from "./components/StatsSection.jsx";
 import FunctionalitySection from "./components/FunctionalitySection.jsx";
 import Footer from "./components/Footer.jsx";
+import ResponsibilitySection from "./components/ResponsabilitySection.jsx";
 
 export default function Home() {
-  return (  
+  return (
     <div>
       <Header />
       <HeroSection />
       <StatsSection />
       <FunctionalitySection />
+      <ResponsibilitySection />
       <Footer />
     </div>
   );
