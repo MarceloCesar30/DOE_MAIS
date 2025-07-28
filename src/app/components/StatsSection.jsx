@@ -5,7 +5,16 @@ import { PiMedalLight } from "react-icons/pi";
 
 export default function StatsSection() {
     return (
-        <div className="bg-white py-16">
+        <div className="bg-red-50 py-16">
+
+            <div className="text-center mb-12">
+                <h2 className="text-3xl font-bold text-gray-900">
+                    Resultados que Impactam
+                </h2>
+                <p className="mt-2 text-gray-600 text-lg">
+                    Nossos números refletem o compromisso com a solidariedade, eficiência e tecnologia na doação de sangue.
+                </p>
+            </div>
 
             <div className="flex items-center justify-around gap-10">
                 {/* Card 1 */}
